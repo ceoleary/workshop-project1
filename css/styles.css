@@ -1,0 +1,89 @@
+body {
+  /* feel free to change height */
+  height: 5000px;
+  background: linear-gradient(
+    to bottom,
+    #E0E0E0,
+    #00695C
+  );
+}
+
+h1 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 5px;
+  font-weight: 100;
+  padding: 25px 15px 5px 15px;
+  /*text-shadow: 1px 1px 1px #333;*/
+}
+
+h2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  padding: 10px 10px 15px 10px;
+  /*text-shadow: 1px 1px 1px #333;*/
+}
+
+p {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 200;
+  color: white;
+  text-align: justify;
+  font-size: 16px;
+  letter-spacing: 3px;
+  padding: 15px 10px;
+}
+
+#left-div{
+	display: none;
+	position: fixed;
+	top: 33%;
+	margin-left: 45px;
+	margin-right: 70%;
+	background-color: black;
+}
+#right-div{
+	display: none;
+	position: fixed;
+	top: 33%;
+	margin-left: 70%;
+	margin-right: 30px;
+	background-color: black;
+}
+
+#canvas{
+	width: 100%;
+	z-index: -1;
+}
+
+#face-svg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin: -200px 0 0 -300px;
+	z-index: -1
+}
+
+.ribbon{
+	width: 100%;
+}
+
+#skills{
+	height: 300px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.7);
+}
